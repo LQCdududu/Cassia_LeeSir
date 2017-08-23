@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0121227A1F4D6D0300A8A386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122791F4D6D0300A8A386 /* main.m */; };
+		0121227D1F4D6D0300A8A386 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0121227C1F4D6D0300A8A386 /* AppDelegate.m */; };
+		012122851F4D6D0300A8A386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012122841F4D6D0300A8A386 /* Assets.xcassets */; };
+		012122881F4D6D0300A8A386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012122861F4D6D0300A8A386 /* LaunchScreen.storyboard */; };
+		012122991F4D6DD000A8A386 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122901F4D6DD000A8A386 /* LeftSlideViewController.m */; };
+		0121229A1F4D6DD000A8A386 /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122921F4D6DD000A8A386 /* LeftSortsViewController.m */; };
+		0121229C1F4D6DD000A8A386 /* otherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122961F4D6DD000A8A386 /* otherViewController.m */; };
+		0121229D1F4D6DD000A8A386 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122981F4D6DD000A8A386 /* UIView_extra.m */; };
+		012122A21F4D6E7800A8A386 /* ZCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122A01F4D6E7800A8A386 /* ZCTabBarViewController.m */; };
+		012122A31F4D6E7800A8A386 /* ZCTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012122A11F4D6E7800A8A386 /* ZCTabBarViewController.xib */; };
+		012122AB1F4D6F3300A8A386 /* ZCClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122A61F4D6F3300A8A386 /* ZCClassifyViewController.m */; };
+		012122AC1F4D6F3300A8A386 /* ZCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122A81F4D6F3300A8A386 /* ZCHomeViewController.m */; };
+		012122AD1F4D6F3300A8A386 /* ZCMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012122AA1F4D6F3300A8A386 /* ZCMineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012122751F4D6D0300A8A386 /* Cassia_侧滑（抽屉样式）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cassia_侧滑（抽屉样式）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		012122791F4D6D0300A8A386 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0121227B1F4D6D0300A8A386 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0121227C1F4D6D0300A8A386 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		012122841F4D6D0300A8A386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012122871F4D6D0300A8A386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		012122891F4D6D0300A8A386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0121228F1F4D6DD000A8A386 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		012122901F4D6DD000A8A386 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		012122911F4D6DD000A8A386 /* LeftSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSortsViewController.h; sourceTree = "<group>"; };
+		012122921F4D6DD000A8A386 /* LeftSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSortsViewController.m; sourceTree = "<group>"; };
+		012122951F4D6DD000A8A386 /* otherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherViewController.h; sourceTree = "<group>"; };
+		012122961F4D6DD000A8A386 /* otherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherViewController.m; sourceTree = "<group>"; };
+		012122971F4D6DD000A8A386 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		012122981F4D6DD000A8A386 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		0121229F1F4D6E7800A8A386 /* ZCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBarViewController.h; sourceTree = "<group>"; };
+		012122A01F4D6E7800A8A386 /* ZCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBarViewController.m; sourceTree = "<group>"; };
+		012122A11F4D6E7800A8A386 /* ZCTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCTabBarViewController.xib; sourceTree = "<group>"; };
+		012122A51F4D6F3300A8A386 /* ZCClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCClassifyViewController.h; sourceTree = "<group>"; };
+		012122A61F4D6F3300A8A386 /* ZCClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCClassifyViewController.m; sourceTree = "<group>"; };
+		012122A71F4D6F3300A8A386 /* ZCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHomeViewController.h; sourceTree = "<group>"; };
+		012122A81F4D6F3300A8A386 /* ZCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHomeViewController.m; sourceTree = "<group>"; };
+		012122A91F4D6F3300A8A386 /* ZCMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMineViewController.h; sourceTree = "<group>"; };
+		012122AA1F4D6F3300A8A386 /* ZCMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMineViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012122721F4D6D0300A8A386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0121226C1F4D6D0300A8A386 = {
+			isa = PBXGroup;
+			children = (
+				012122771F4D6D0300A8A386 /* Cassia_侧滑（抽屉样式） */,
+				012122761F4D6D0300A8A386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		012122761F4D6D0300A8A386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012122751F4D6D0300A8A386 /* Cassia_侧滑（抽屉样式）.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012122771F4D6D0300A8A386 /* Cassia_侧滑（抽屉样式） */ = {
+			isa = PBXGroup;
+			children = (
+				0121227B1F4D6D0300A8A386 /* AppDelegate.h */,
+				0121227C1F4D6D0300A8A386 /* AppDelegate.m */,
+				012122A41F4D6F3300A8A386 /* ViewControllers */,
+				0121229E1F4D6DD400A8A386 /* SlideViewController` */,
+				0121229F1F4D6E7800A8A386 /* ZCTabBarViewController.h */,
+				012122A01F4D6E7800A8A386 /* ZCTabBarViewController.m */,
+				012122A11F4D6E7800A8A386 /* ZCTabBarViewController.xib */,
+				012122911F4D6DD000A8A386 /* LeftSortsViewController.h */,
+				012122921F4D6DD000A8A386 /* LeftSortsViewController.m */,
+				012122951F4D6DD000A8A386 /* otherViewController.h */,
+				012122961F4D6DD000A8A386 /* otherViewController.m */,
+				012122781F4D6D0300A8A386 /* Supporting Files */,
+			);
+			path = "Cassia_侧滑（抽屉样式）";
+			sourceTree = "<group>";
+		};
+		012122781F4D6D0300A8A386 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				012122841F4D6D0300A8A386 /* Assets.xcassets */,
+				012122861F4D6D0300A8A386 /* LaunchScreen.storyboard */,
+				012122891F4D6D0300A8A386 /* Info.plist */,
+				012122791F4D6D0300A8A386 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0121229E1F4D6DD400A8A386 /* SlideViewController` */ = {
+			isa = PBXGroup;
+			children = (
+				0121228F1F4D6DD000A8A386 /* LeftSlideViewController.h */,
+				012122901F4D6DD000A8A386 /* LeftSlideViewController.m */,
+				012122971F4D6DD000A8A386 /* UIView_extra.h */,
+				012122981F4D6DD000A8A386 /* UIView_extra.m */,
+			);
+			name = "SlideViewController`";
+			sourceTree = "<group>";
+		};
+		012122A41F4D6F3300A8A386 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				012122A51F4D6F3300A8A386 /* ZCClassifyViewController.h */,
+				012122A61F4D6F3300A8A386 /* ZCClassifyViewController.m */,
+				012122A71F4D6F3300A8A386 /* ZCHomeViewController.h */,
+				012122A81F4D6F3300A8A386 /* ZCHomeViewController.m */,
+				012122A91F4D6F3300A8A386 /* ZCMineViewController.h */,
+				012122AA1F4D6F3300A8A386 /* ZCMineViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012122741F4D6D0300A8A386 /* Cassia_侧滑（抽屉样式） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0121228C1F4D6D0300A8A386 /* Build configuration list for PBXNativeTarget "Cassia_侧滑（抽屉样式）" */;
+			buildPhases = (
+				012122711F4D6D0300A8A386 /* Sources */,
+				012122721F4D6D0300A8A386 /* Frameworks */,
+				012122731F4D6D0300A8A386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cassia_侧滑（抽屉样式）";
+			productName = "Cassia_侧滑（抽屉样式）";
+			productReference = 012122751F4D6D0300A8A386 /* Cassia_侧滑（抽屉样式）.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0121226D1F4D6D0300A8A386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Cassia;
+				TargetAttributes = {
+					012122741F4D6D0300A8A386 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 012122701F4D6D0300A8A386 /* Build configuration list for PBXProject "Cassia_侧滑（抽屉样式）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0121226C1F4D6D0300A8A386;
+			productRefGroup = 012122761F4D6D0300A8A386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012122741F4D6D0300A8A386 /* Cassia_侧滑（抽屉样式） */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012122731F4D6D0300A8A386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012122881F4D6D0300A8A386 /* LaunchScreen.storyboard in Resources */,
+				012122851F4D6D0300A8A386 /* Assets.xcassets in Resources */,
+				012122A31F4D6E7800A8A386 /* ZCTabBarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012122711F4D6D0300A8A386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012122AB1F4D6F3300A8A386 /* ZCClassifyViewController.m in Sources */,
+				0121227D1F4D6D0300A8A386 /* AppDelegate.m in Sources */,
+				0121229A1F4D6DD000A8A386 /* LeftSortsViewController.m in Sources */,
+				012122AD1F4D6F3300A8A386 /* ZCMineViewController.m in Sources */,
+				012122AC1F4D6F3300A8A386 /* ZCHomeViewController.m in Sources */,
+				012122A21F4D6E7800A8A386 /* ZCTabBarViewController.m in Sources */,
+				0121229D1F4D6DD000A8A386 /* UIView_extra.m in Sources */,
+				0121227A1F4D6D0300A8A386 /* main.m in Sources */,
+				012122991F4D6DD000A8A386 /* LeftSlideViewController.m in Sources */,
+				0121229C1F4D6DD000A8A386 /* otherViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		012122861F4D6D0300A8A386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012122871F4D6D0300A8A386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0121228A1F4D6D0300A8A386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0121228B1F4D6D0300A8A386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0121228D1F4D6D0300A8A386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cassia_侧滑（抽屉样式）/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cassia.Cassia---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0121228E1F4D6D0300A8A386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cassia_侧滑（抽屉样式）/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cassia.Cassia---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012122701F4D6D0300A8A386 /* Build configuration list for PBXProject "Cassia_侧滑（抽屉样式）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0121228A1F4D6D0300A8A386 /* Debug */,
+				0121228B1F4D6D0300A8A386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0121228C1F4D6D0300A8A386 /* Build configuration list for PBXNativeTarget "Cassia_侧滑（抽屉样式）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0121228D1F4D6D0300A8A386 /* Debug */,
+				0121228E1F4D6D0300A8A386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0121226D1F4D6D0300A8A386 /* Project object */;
+}
